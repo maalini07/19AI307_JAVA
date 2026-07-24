@@ -32,31 +32,23 @@ RegisterNumber:  212224060136
 
 ## Sourcecode.java:
 ```
-
 class Subject
 {
     
-    String subject1,subject2,subject3,subject4;
-      //Write Your Code Here
-      
+    String subject1,subject2,subject3,subject4;      
     void dispSub(String subject1,String subject2,String subject3,String subject4)
     {
         System.out.println(subject1+" "+subject2+" "+subject3+" "+subject4);
-         //Write Your Code Here
     }
 }
 class Student
 {
     int Stu_Id;
-    Subject obj = new Subject();
-    
-    //Write Your Code Here
-    
+    Subject obj = new Subject();    
     void disp(int id)
     {
         System.out.println(id);
         obj.dispSub("B.Tech","IT","Third","year");
-        //Write Your Code Here
     }
 }
 
@@ -64,7 +56,6 @@ public class Main
 {
     public static void main(String[] args)
     {
-        //Write Your Code Here
         Student obj = new Student();
         obj.disp(101);
         
